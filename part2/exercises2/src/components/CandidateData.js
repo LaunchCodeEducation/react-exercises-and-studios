@@ -9,7 +9,7 @@ const CandidateData = () => {
    const dataDetails = details.map((detail)=>(
          <div key={detail.id} className='candidateData' >
             <li>Name: <b>{detail.name}</b></li>
-            <li className={`${detail.age < 1 ? "text-primary" : "text-secondary"}`}>Age: <b>{detail.age} years</b></li>
+            <li className={`${detail.age < 1 ? "text-primary" : "candidateData"}`}>Age: <b>{detail.age} years</b></li>
             <li>Mass: <b>{detail.mass} kg</b></li>
             <li>Sidekick: <b>{detail.sidekick}</b></li>
             <br />

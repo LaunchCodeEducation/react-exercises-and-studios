@@ -15,12 +15,17 @@ import SelectedCrew from './components/SelectedCrew';
 
 function App() {
 return (
-<div className='similarComponents'>
-    <CandidateName /> 
-    <CandidateData />
-    <Sidekick />
-    <SelectedCrew />
-</div>
+  <>
+    <div className='similarComponents'>
+      <CandidateName /> 
+      <CandidateData />
+      <Sidekick />
+      <SelectedCrew />
+    </div>
+    <div>
+      <button>Add to Crew List </button>
+    </div>
+  </>
   );
 }
 

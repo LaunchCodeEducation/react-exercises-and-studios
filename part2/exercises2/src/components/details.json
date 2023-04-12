@@ -1,36 +1,36 @@
 [{
       "id": 1, 
-      "name": "Willow", 
-      "age": 7,
-      "mass": "43.3", 
+      "name": "Artemis", 
+      "age": 0,
+      "mass": "2.3", 
       "sidekick": "Blake",
-      "image": "https://cdn.pixabay.com/photo/2016/12/05/11/39/fox-1883658_1280.jpg"
+      "image": "https://em-content.zobj.net/thumbs/240/mozilla/36/snake_1f40d.png"
    }, {
       "id": 2, 
       "name": "Thisbe", 
       "age": 14,
       "mass": "6.3", 
       "sidekick": "Sally",
-      "image": "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg"
+      "image": "https://em-content.zobj.net/thumbs/240/google/350/hedgehog_1f994.png"
    }, {
       "id": 3, 
       "name": "Hermes", 
       "age": 0,
       "mass": "3.3", 
       "sidekick": "Courtney",
-      "image": "https://cdn.pixabay.com/photo/2016/12/05/11/39/fox-1883658_1280.jpg"
+      "image": "https://em-content.zobj.net/thumbs/320/google/350/cat_1f408.png"
    }, {
       "id": 4, 
-      "name": "Artemis", 
-      "age": 1,
-      "mass": "2.9", 
+      "name": "Willow", 
+      "age": 7,
+      "mass": "42.9", 
       "sidekick": "Kimberly",
-      "image": "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg"
+      "image": "https://em-content.zobj.net/thumbs/240/mozilla/36/dog_1f415.png"
    },  {
       "id": 5, 
       "name": "Alyce", 
       "age": 18,
       "mass": "3.1", 
       "sidekick": "Rob",
-      "image": "https://cdn.pixabay.com/photo/2016/12/05/11/39/fox-1883658_1280.jpg"
+      "image": "https://em-content.zobj.net/thumbs/240/google/350/parrot_1f99c.png"
    }]
