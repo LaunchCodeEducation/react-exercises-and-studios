@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import CandidateName from './components/Candidates';
-import CandidateData from './components/CandidateData';
-import Sidekick from './components/Sidekick'
-import SelectedCrew from './components/SelectedCrew';
+import ListCandidateName from './components/CandidateNames';
+import ListCandidateData from './components/CandidateData';
+import {Sidekick} from './components/Sidekick'
+import {SelectedCrew} from './components/SelectedCrew';
 
 //this is the dashboard
 
@@ -15,12 +15,12 @@ import SelectedCrew from './components/SelectedCrew';
 
 function App() {
   return (
-  <>
-    <CandidateName />
-    <CandidateData />
+<div className='similarComponents'>
+    <ListCandidateName />    
+    <ListCandidateData />
     <Sidekick />
     <SelectedCrew />
-  </>
+</div>
   );
 }
 
