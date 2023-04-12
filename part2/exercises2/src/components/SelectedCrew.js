@@ -8,4 +8,4 @@ const SelectedCrew = () => {
    )
 }
 
-export {SelectedCrew};
+export default SelectedCrew;

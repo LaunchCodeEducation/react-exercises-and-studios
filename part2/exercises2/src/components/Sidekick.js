@@ -8,4 +8,4 @@ const Sidekick = () => {
    )
 }
 
-export {Sidekick};
+export default Sidekick;

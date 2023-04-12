@@ -1,19 +1,21 @@
 import details from './details.json';
 
 
-//create list of all data points from the json file
-const dataDetails = details.map((detail)=>(
-   <div key={detail.id} className='candidateData' >
-         <li>Name: <b>{detail.name}</b></li>
-         <li>Age: <b>{detail.age} years</b></li>
-         <li>Mass: <b>{detail.mass} kg</b></li>
-         <li>Sidekick: <b>{detail.sidekick}</b></li>
-         <br />
-   </div>
-));
+
 
 //create list for data
-function ListCandidateData(){
+const CandidateData = () => {
+   //create list of all data points from the json file
+   const dataDetails = details.map((detail)=>(
+         <div key={detail.id} className='candidateData' >
+            <li>Name: <b>{detail.name}</b></li>
+            <li className={`${detail.age < 1 ? "text-primary" : "text-secondary"}`}>Age: <b>{detail.age} years</b></li>
+            <li>Mass: <b>{detail.mass} kg</b></li>
+            <li>Sidekick: <b>{detail.sidekick}</b></li>
+            <br />
+         </div>
+      ));
+
    return (
       <div>
          <h1 className='candidateData'>Candidate Data</h1>
@@ -22,7 +24,7 @@ function ListCandidateData(){
    );
 };
 
-export default ListCandidateData;
+export default CandidateData;
 
 /*
    This should show data of a selected candidate

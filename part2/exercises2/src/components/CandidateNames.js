@@ -1,13 +1,6 @@
 import details from './details.json';
 
-//mapping the data and finding the names - adding them as list items
-const NameDetails = details.map(
-   (detail)=> {
-      return(
-         <li key={detail.id}>
-            {detail.name}
-         </li>
-)});
+
 
 //creating the list item using the names
 //is this best as a function because it is creating the list? '
@@ -18,7 +11,16 @@ const NameDetails = details.map(
  //see houselist and houserow in pluralsight video
  //thinking namelist and data
 
- function ListCandidateName() {
+ const CandidateName = () => {
+   //mapping the data and finding the names - adding them as list items
+   const NameDetails = details.map(
+      (detail)=> {
+         return(
+            <li key={detail.id}>
+               {detail.name}
+            </li>
+      )});
+
    return(
       
       <div className='candidateNames'>
@@ -29,4 +31,4 @@ const NameDetails = details.map(
 }
 
 
- export default ListCandidateName;
+ export default CandidateName;
