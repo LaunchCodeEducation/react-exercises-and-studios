@@ -4,7 +4,10 @@ import details from './details.json';
 
 
 //create list for data
-const CandidateData = () => {
+function CandidateData(){
+  
+
+
    //create list of all data points from the json file
    const dataDetails = details.map((detail)=>(
          <div key={detail.id} className='candidateData' >

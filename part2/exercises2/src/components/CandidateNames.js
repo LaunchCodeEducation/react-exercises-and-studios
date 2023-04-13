@@ -22,12 +22,11 @@ import details from './details.json';
       )});
 
    return(
-      
       <div className='candidateNames'>
          <h1>Candidate Names</h1>
          <ul>{NameDetails}</ul>
       </div>
-   )
+   );
 }
 
 
