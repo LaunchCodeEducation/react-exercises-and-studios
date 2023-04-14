@@ -1,11 +1,8 @@
 import React from 'react';
 import './App.css';
-//import './components/OceanTable.module.css';
-// import CandidateName from './components/CandidateNames';
-// import CandidateData from './components/CandidateData';
-// import Sidekick from './components/Sidekick'
-// import NameTable from './components/CandidateTable';
-import OceanTable from './components/OceanTable';
+ import OceanList from './components/OceanList';
+//import OceanProfile from './components/OceanProfile.js';
+//import Aquarium from './components/Aquarium';
 
 //this is the dashboard
 
@@ -18,8 +15,9 @@ import OceanTable from './components/OceanTable';
 function App() {
   return(
     <>
+    <h1>The Amazing Ocean!</h1>
     <div>
-    <OceanTable />
+    <OceanList />
     </div>
     </>
   );

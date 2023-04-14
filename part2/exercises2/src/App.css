@@ -37,36 +37,54 @@
   }
 }
 
-.similarComponents {
+.avatars {
+  width: 20%;
+  height: auto;
+  margin: 5%;
+  background-color: rgb(126, 126, 227);
   display:flex;
-  justify-content:space-between;
-  padding: 50px;
+  padding: 5%;
 }
 
-.candidateNames {
-  color: DodgerBlue;
-  padding: 4px;
-  font-family: Arial;
-  text-align: left;
+.isAFish{
+  width: 20%;
+  height: 20%;
+  margin: 5%;
+  background-color: rgb(31, 31, 222);
+  display:flex;
+  padding: 5%;
+  color:rgb(161, 161, 243)
 }
 
-.candidateData {
-  color: maroon;
-  padding: 4px;
-  font-family: Arial;
-  text-align: left;
+ul {
+  padding-left: 20px;
 }
 
-.sidekicks {
-  color: rgb(61, 145, 89);
-  padding: 4px;
-  font-family: Arial;
-  text-align: left;
+ul{
+  list-style-type: none; 
+  padding: 2% 2% 2% 2%;
 }
 
-.selectedCrew {
-  color: rgb(102, 23, 119);
-  padding: 4px;
-  font-family: Arial;
-  text-align: left;
+li { 
+  margin-bottom: 10px; 
+  display: grid; 
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+img { 
+  width: 30%; 
+  height: auto; 
+  border-radius: 50%; 
+}
+.card {
+  width: fit-content;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background: #e65050;
 }
