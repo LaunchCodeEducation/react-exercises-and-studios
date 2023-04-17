@@ -1,12 +1,15 @@
-import oceans from './oceans.json';
+function Button() {
 
-function Button({ onClick, children, learnMore}) {
-   return (
-     <button onClick={onClick}>
-       {children}
-       {oceans.learnMore}
-     </button>
+   function onLearnMore(){
+      alert("Splish Splash!");
+      }     
+   return ( 
+      <div>
+         <button onClick={onLearnMore}>
+            Learn More
+         </button>
+      </div>
    );
- }
+}
 
- export default Button;
+export default Button;

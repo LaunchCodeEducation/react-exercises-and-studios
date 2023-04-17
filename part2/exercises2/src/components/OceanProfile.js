@@ -1,45 +1,35 @@
+import oceans from './oceans.json'
+import Button from './Button';
 
+function OceanProfile(){
 
-function OceanProfile({
-    id,  
-    name,
-    fact1,
-    fact2,
-    fact3,
-    image,
-    learnMore,
-    imageSize = 500
-  }) {
-    return (
+  const listItems = oceans.map(ocean =>
+    <div key={ocean.id}  className={`${ocean.fishCheck === "true" ? "isAFish" : "profile"}`}>
+      
+      <img src={ocean.image} alt={ocean.name} className="img"/>
+      
+      <h1><b>{ocean.name}</b></h1>
+      
+      <h3><i>Fun Facts!</i></h3>
       <ul>
-      <section className='avatars'>
-      <li key={id}>
-        <h2>{name}</h2>
-        </li>
-        <li>
-        <img
-        className="avatars"
-        src={image}
-        alt={name}
-        width={imageSize}
-        height={imageSize}
-        /></li>
-          <li><b>Fun fact:   {fact1}</b>
-          </li>
-          <li><b>Fun fact:   {fact2}</b>
-          </li>
-          <li><b>Fun fact:   {fact3}</b>
-          </li>
-          <li><b>Learn more:</b>
-            {learnMore}
-          </li>
-      </section>
+        <li>{ocean.fact1}</li>
+        <li>{ocean.fact2}</li>
+        <li>{ocean.fact3}</li>
       </ul>
-    );
-  }
- 
- 
+      
+      <div>
+        <Button />
+      </div>
+    
+    </div>
+  );
+    
+  return( 
+    <ul>
+      {listItems}
+    </ul>
+  );
+}
 
-
- export default OceanProfile;
+export default OceanProfile;
  
