@@ -1,90 +1,37 @@
-.App {
+.header {
+  padding: 60px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: #021373;
   color: white;
+  font-size: 80px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.avatars {
-  width: 20%;
-  height: auto;
-  margin: 5%;
+.profile {
   background-color: rgb(126, 126, 227);
-  display:flex;
-  padding: 5%;
+  padding: 2%;
+  width: 50%;
+  list-style-type: disc;
+  margin: 5%;
 }
 
-.isAFish{
-  width: 20%;
-  height: 20%;
-  margin: 5%;
+.isAFish {
   background-color: rgb(31, 31, 222);
-  display:flex;
-  padding: 5%;
-  color:rgb(161, 161, 243)
+  color: rgb(213, 213, 247);
+  width: 50%;
+  padding: 2%;
+  margin: 5%;
 }
 
 ul {
-  padding-left: 20px;
-}
-
-ul{
   list-style-type: none; 
-  padding: 2% 2% 2% 2%;
+  padding: 2%;
 }
 
 li { 
   margin-bottom: 10px; 
-  display: grid; 
-  grid-template-columns: auto 1fr;
-  gap: 20px;
-  align-items: center;
+  list-style-type: disc;
 }
 
-img { 
-  width: 30%; 
-  height: auto; 
-  border-radius: 50%; 
-}
-.card {
-  width: fit-content;
-  margin: 5px;
-  padding: 5px;
-  font-size: 20px;
-  text-align: center;
-  border: 1px solid #aaa;
-  border-radius: 20px;
-  background: #e65050;
+h1 {
+  font-size: 60px;
 }
