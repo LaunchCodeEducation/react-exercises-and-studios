@@ -3,6 +3,8 @@ import './App.css';
 import OceanProfile from './components/OceanProfile';
 import Banner from './components/Banner';
 
+//starter code will have the default App
+
 function App(){
   return(
     <>
@@ -13,3 +15,4 @@ function App(){
 }
 
 export default App;
+
