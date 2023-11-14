@@ -9,7 +9,13 @@ function App() {
     <div className="App">
       <MovieList />
       <ChoresList />
-      <BookList />
+      <div className="similarComponents">
+        <MovieList />
+        <div style={{border: '1px solid black'}}>
+          <BookList />
+        </div>
+        <HobbyLinks />
+      </div>
     </div>
   );
 }
